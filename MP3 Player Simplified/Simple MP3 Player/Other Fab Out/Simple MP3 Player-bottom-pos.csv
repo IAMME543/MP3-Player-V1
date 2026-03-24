@@ -1,0 +1,8 @@
+Ref,Val,Package,PosX,PosY,Rot,Side
+"SW3","Front keys center","SW_PUSH-12mm",32.750000,11.350000,180.000000,bottom
+"SW4","front keys bottom","SW_PUSH-12mm",32.750000,-4.200000,180.000000,bottom
+"SW5","Front Keys right","SW_PUSH-12mm",16.250000,11.250000,180.000000,bottom
+"SW6","front keys left","SW_PUSH-12mm",49.250000,11.250000,180.000000,bottom
+"SW7","Front keys up","SW_PUSH-12mm",32.750000,27.250000,180.000000,bottom
+"SW8","RotaryEncoder","RE130F41175F12P",46.500000,-22.000000,180.000000,bottom
+"U2","~","Waveshare Pico LCD 2",21.070000,50.610000,90.000000,bottom

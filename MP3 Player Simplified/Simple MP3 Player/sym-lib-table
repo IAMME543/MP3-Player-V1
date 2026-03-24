@@ -1,0 +1,6 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "Seeed_Studio_XIAO_Series")(type "KiCad")(uri "/home/mason/Projects/CAD/MP3 Player Simplified/Symbols/Seeed_Studio_XIAO_Series.kicad_sym")(options "")(descr ""))
+  (lib (name "Adafruit TLV320DAC3100")(type "KiCad")(uri "/home/mason/Projects/CAD/MP3 Player Simplified/Symbols/Adafruit TLV320DAC3100.kicad_sym")(options "")(descr ""))
+  (lib (name "Waveshare 2 lcd pico")(type "KiCad")(uri "/home/mason/Projects/CAD/MP3 Player Simplified/Symbols/Waveshare 2 lcd pico.kicad_sym")(options "")(descr ""))
+)
