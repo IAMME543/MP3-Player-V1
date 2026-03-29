@@ -21,3 +21,28 @@ class InputManager():
 class BatteryManager():
     # Monitor battery percentage and health, update UIManager when to warn user of 
     # low battery and ensure safe shutdown
+
+class MetadataParser():
+    # recieve song file and get metadata
+    # create Song class and set avaliable metadata
+    # if artist value exists and artist is not in known artists then create artist
+    # if album value exists and album is not known then create album class 
+    
+
+class Song():
+    def __init__(self, title="Unkown", file_path="", album=None, artists=None, track_no=0):
+        self.title = title
+        self.file_path = file_path
+        self.album = album
+        self.artists = artists or []
+        self.track_number = track_number
+
+class Album():
+    def __init__(self, title="Unkown", artists=None, songs=None):
+        self.title = title
+        self.artists = artists or []
+        self.songs = songs or []
+class Artists():
+    def __init__(self, name="Unkown", albums=None):
+        self.name = name
+        self.albums = albums or []
