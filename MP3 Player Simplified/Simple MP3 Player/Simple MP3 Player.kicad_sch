@@ -4292,6 +4292,36 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "need to bodge together"
+		(exclude_from_sim no)
+		(at 76.454 116.078 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "12e71597-4e39-4176-82a9-fbc690c436b3")
+	)
+	(text "IS 3v3 in. need to bodge wire here"
+		(exclude_from_sim no)
+		(at 284.226 98.044 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "19039b7e-14ff-49e2-98c4-6b15ae422a19")
+	)
+	(text "Need to bodge pull all down to ground with 10k"
+		(exclude_from_sim no)
+		(at 47.752 171.45 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d4d6e2b7-0f54-4973-92be-ba93f4ffb6ed")
+	)
 	(junction
 		(at 58.42 50.8)
 		(diameter 0)
@@ -5222,6 +5252,16 @@
 		)
 		(uuid "389fb61c-ebcd-45da-9fd9-120881d0cee2")
 	)
+	(polyline
+		(pts
+			(xy 86.36 115.57) (xy 91.44 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39dc915c-f339-434e-a5da-99630f57c267")
+	)
 	(wire
 		(pts
 			(xy 27.94 156.21) (xy 27.94 160.02)
@@ -5331,6 +5371,26 @@
 			(type default)
 		)
 		(uuid "441fa3ed-c130-44a1-bd8c-4be856109780")
+	)
+	(polyline
+		(pts
+			(xy 63.5 172.72) (xy 72.39 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46ef547a-6c62-4a4a-8102-f756c60323ac")
+	)
+	(polyline
+		(pts
+			(xy 257.81 97.79) (xy 266.7 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47093148-9ba0-44dc-98b0-68b63ae07656")
 	)
 	(wire
 		(pts
@@ -5912,6 +5972,16 @@
 		)
 		(uuid "8daff342-5436-4387-8b15-8ee3947b32c2")
 	)
+	(polyline
+		(pts
+			(xy 86.36 116.84) (xy 86.36 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8dd941d0-3f72-4545-9fb4-770d431f4efa")
+	)
 	(wire
 		(pts
 			(xy 171.45 139.7) (xy 171.45 93.98)
@@ -6031,6 +6101,16 @@
 			(type default)
 		)
 		(uuid "97d692cd-f2db-4fd7-8272-33f8ac5c4831")
+	)
+	(polyline
+		(pts
+			(xy 72.39 153.67) (xy 72.39 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99488bb1-3d51-4fe1-9493-ef6542a4cff9")
 	)
 	(wire
 		(pts
@@ -7187,7 +7267,7 @@
 			(uuid "1335986f-0523-40d2-bce4-06160fffe08d")
 		)
 		(instances
-			(project ""
+			(project "Simple MP3 Player"
 				(path "/ccbb7322-c983-4293-9e85-784d7b3dc014"
 					(reference "SW8")
 					(unit 1)
@@ -7392,7 +7472,7 @@
 			(uuid "9db576b8-7368-4fde-bd8e-af85b5d36380")
 		)
 		(instances
-			(project ""
+			(project "Simple MP3 Player"
 				(path "/ccbb7322-c983-4293-9e85-784d7b3dc014"
 					(reference "R3")
 					(unit 1)
@@ -7460,7 +7540,7 @@
 			(uuid "9e8f431d-b489-4bc5-9041-cc6cbc4d3c66")
 		)
 		(instances
-			(project ""
+			(project "Simple MP3 Player"
 				(path "/ccbb7322-c983-4293-9e85-784d7b3dc014"
 					(reference "C1")
 					(unit 1)
@@ -7730,7 +7810,7 @@
 			(uuid "ea38a163-69c0-42da-b6dd-bdbfe1efb848")
 		)
 		(instances
-			(project ""
+			(project "Simple MP3 Player"
 				(path "/ccbb7322-c983-4293-9e85-784d7b3dc014"
 					(reference "TP1")
 					(unit 1)
@@ -7866,7 +7946,7 @@
 			(uuid "d9728cc5-71c6-4e32-9539-dca029182ea7")
 		)
 		(instances
-			(project ""
+			(project "Simple MP3 Player"
 				(path "/ccbb7322-c983-4293-9e85-784d7b3dc014"
 					(reference "#PWR06")
 					(unit 1)
@@ -7939,7 +8019,7 @@
 			(uuid "43865da0-abc0-4ca8-9241-c81929e58cc4")
 		)
 		(instances
-			(project ""
+			(project "Simple MP3 Player"
 				(path "/ccbb7322-c983-4293-9e85-784d7b3dc014"
 					(reference "SW2")
 					(unit 1)
@@ -8064,7 +8144,7 @@
 			(uuid "01bed3b7-fd9f-4755-bfda-96b0940f9335")
 		)
 		(instances
-			(project ""
+			(project "Simple MP3 Player"
 				(path "/ccbb7322-c983-4293-9e85-784d7b3dc014"
 					(reference "U3")
 					(unit 1)
@@ -8132,7 +8212,7 @@
 			(uuid "36ffe9cf-8e0b-4ace-a3bb-8f7976a58fea")
 		)
 		(instances
-			(project ""
+			(project "Simple MP3 Player"
 				(path "/ccbb7322-c983-4293-9e85-784d7b3dc014"
 					(reference "C7")
 					(unit 1)
@@ -8266,7 +8346,7 @@
 			(uuid "0977724d-2ddf-49f3-bcff-7e7f127c7169")
 		)
 		(instances
-			(project ""
+			(project "Simple MP3 Player"
 				(path "/ccbb7322-c983-4293-9e85-784d7b3dc014"
 					(reference "U5")
 					(unit 1)
@@ -8544,7 +8624,7 @@
 			(uuid "9cc01119-41fa-4325-8c36-5eb98ce0407b")
 		)
 		(instances
-			(project ""
+			(project "Simple MP3 Player"
 				(path "/ccbb7322-c983-4293-9e85-784d7b3dc014"
 					(reference "U1")
 					(unit 1)
@@ -8679,7 +8759,7 @@
 			(uuid "7fc621df-9e70-4315-8c82-40679d30ee83")
 		)
 		(instances
-			(project ""
+			(project "Simple MP3 Player"
 				(path "/ccbb7322-c983-4293-9e85-784d7b3dc014"
 					(reference "SW3")
 					(unit 1)
@@ -8757,7 +8837,7 @@
 			(uuid "ec69f9e0-7cc1-4a22-89c2-489248eb39e4")
 		)
 		(instances
-			(project ""
+			(project "Simple MP3 Player"
 				(path "/ccbb7322-c983-4293-9e85-784d7b3dc014"
 					(reference "J5")
 					(unit 1)
@@ -8892,7 +8972,7 @@
 			(uuid "04f887f7-ef73-4219-ba88-aada1de4295f")
 		)
 		(instances
-			(project ""
+			(project "Simple MP3 Player"
 				(path "/ccbb7322-c983-4293-9e85-784d7b3dc014"
 					(reference "#PWR04")
 					(unit 1)
@@ -9029,7 +9109,7 @@
 			(uuid "64050b5f-66dc-4fe7-8f26-c357c92b3498")
 		)
 		(instances
-			(project ""
+			(project "Simple MP3 Player"
 				(path "/ccbb7322-c983-4293-9e85-784d7b3dc014"
 					(reference "R6")
 					(unit 1)
@@ -9095,7 +9175,7 @@
 			(uuid "d635be0e-8453-4284-b096-2c4b4b632105")
 		)
 		(instances
-			(project ""
+			(project "Simple MP3 Player"
 				(path "/ccbb7322-c983-4293-9e85-784d7b3dc014"
 					(reference "#PWR03")
 					(unit 1)
@@ -9163,7 +9243,7 @@
 			(uuid "6fc85a76-a6a1-4f9c-8258-c525b5656ef3")
 		)
 		(instances
-			(project ""
+			(project "Simple MP3 Player"
 				(path "/ccbb7322-c983-4293-9e85-784d7b3dc014"
 					(reference "SW7")
 					(unit 1)
@@ -9229,7 +9309,7 @@
 			(uuid "62beae8e-9cba-4410-bbb5-ed3573ea3ac4")
 		)
 		(instances
-			(project ""
+			(project "Simple MP3 Player"
 				(path "/ccbb7322-c983-4293-9e85-784d7b3dc014"
 					(reference "#PWR02")
 					(unit 1)
@@ -9296,7 +9376,7 @@
 			(uuid "905669d4-b8bf-41ed-a4b9-377c92621c17")
 		)
 		(instances
-			(project ""
+			(project "Simple MP3 Player"
 				(path "/ccbb7322-c983-4293-9e85-784d7b3dc014"
 					(reference "#PWR07")
 					(unit 1)
@@ -9453,7 +9533,7 @@
 			(uuid "46cbadb5-7f96-40e9-9acd-84aa620c909b")
 		)
 		(instances
-			(project ""
+			(project "Simple MP3 Player"
 				(path "/ccbb7322-c983-4293-9e85-784d7b3dc014"
 					(reference "J2")
 					(unit 1)
@@ -9589,7 +9669,7 @@
 			(uuid "4919811b-370d-4d8c-9295-e5a9066c7fdc")
 		)
 		(instances
-			(project ""
+			(project "Simple MP3 Player"
 				(path "/ccbb7322-c983-4293-9e85-784d7b3dc014"
 					(reference "R2")
 					(unit 1)
@@ -9655,7 +9735,7 @@
 			(uuid "80eb89d5-e87c-40da-87c5-a8dcb4e5236f")
 		)
 		(instances
-			(project ""
+			(project "Simple MP3 Player"
 				(path "/ccbb7322-c983-4293-9e85-784d7b3dc014"
 					(reference "#PWR01")
 					(unit 1)
@@ -9721,7 +9801,7 @@
 			(uuid "f4c58d7e-a266-44b7-9ac5-063e41ea918b")
 		)
 		(instances
-			(project ""
+			(project "Simple MP3 Player"
 				(path "/ccbb7322-c983-4293-9e85-784d7b3dc014"
 					(reference "#PWR05")
 					(unit 1)
@@ -9788,7 +9868,7 @@
 			(uuid "b7fa89e8-0153-4d79-aa02-3842db7fb8f3")
 		)
 		(instances
-			(project ""
+			(project "Simple MP3 Player"
 				(path "/ccbb7322-c983-4293-9e85-784d7b3dc014"
 					(reference "J1")
 					(unit 1)
@@ -9855,7 +9935,7 @@
 			(uuid "d69ca22f-badf-48f1-a007-9b6b1f8c44da")
 		)
 		(instances
-			(project ""
+			(project "Simple MP3 Player"
 				(path "/ccbb7322-c983-4293-9e85-784d7b3dc014"
 					(reference "R1")
 					(unit 1)
@@ -10037,7 +10117,7 @@
 			(uuid "4e33e5d4-e2fd-4882-be5f-dd6696d70b30")
 		)
 		(instances
-			(project ""
+			(project "Simple MP3 Player"
 				(path "/ccbb7322-c983-4293-9e85-784d7b3dc014"
 					(reference "U2")
 					(unit 1)
@@ -10174,7 +10254,7 @@
 			(uuid "e7dd11ed-dcf2-44bd-b740-0353a5e2808d")
 		)
 		(instances
-			(project ""
+			(project "Simple MP3 Player"
 				(path "/ccbb7322-c983-4293-9e85-784d7b3dc014"
 					(reference "C4")
 					(unit 1)
@@ -10243,7 +10323,7 @@
 			(uuid "64fe027b-2112-4f3c-a79a-9dd161c03e8c")
 		)
 		(instances
-			(project ""
+			(project "Simple MP3 Player"
 				(path "/ccbb7322-c983-4293-9e85-784d7b3dc014"
 					(reference "C13")
 					(unit 1)
@@ -10449,7 +10529,7 @@
 			(uuid "b57a4397-d21d-4f77-832a-b8e7efb3a97b")
 		)
 		(instances
-			(project ""
+			(project "Simple MP3 Player"
 				(path "/ccbb7322-c983-4293-9e85-784d7b3dc014"
 					(reference "C2")
 					(unit 1)
