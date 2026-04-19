@@ -1,4 +1,7 @@
 #include <Arduino.h>
+#include <SD.h>
+#include <SPI.h>
+
 #include <types.h>
 
 void setup() {
