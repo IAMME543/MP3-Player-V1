@@ -1,17 +1,18 @@
-#include <display.h>
+#include <PCA95x5.h>
 
-//reset
-const int RST_DISPLAY_PIN = 8;
- 
-void Display::init() {
+PCA9555 ioex;
+
+void setup() {
     Serial.begin(115200);
     delay(2000);
 
     Wire.begin();
-    ioex.attach(Wire, 0x20);
+    ioex.attach(Wire);
     ioex.polarity(PCA95x5::Polarity::ORIGINAL_ALL);
     ioex.direction(PCA95x5::Direction::IN_ALL);
 }
-void Display:update() {
-    
+
+void loop() {
+    Serial.println(ioex.read(), BIN);
+    delay(1000);
 }
