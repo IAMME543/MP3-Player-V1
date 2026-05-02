@@ -3,5 +3,5 @@
 class Buffer {
     public:
         void init();
-        void Update();
-}
+        void update();
+};

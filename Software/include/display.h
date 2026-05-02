@@ -3,5 +3,5 @@
 class Display {
     public:
         void init();
-        void Update();
-}
+        void update();
+};

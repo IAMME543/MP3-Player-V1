@@ -1,5 +1,5 @@
-#include <input.h>
-#include <PCA95x5.h>
+#include "input.h"
+#include "PCA95x5.h"
 
 PCA9555 ioex;
 
@@ -26,6 +26,6 @@ void Input::init() {
     ioex.polarity(PCA95x5::Polarity::ORIGINAL_ALL);
     ioex.direction(PCA95x5::Direction::IN_ALL);
 }
-void Input:update() {
-
+void Input::update() {
+//
 }

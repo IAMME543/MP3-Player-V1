@@ -1,13 +1,20 @@
 #include <Arduino.h>
-#include <SD.h>
-#include <SPI.h>
 
-#include <types.h>
+#include "SD.h"
 
-void setup() {
-  //
+#include "types.h"
+
+void setup()
+{
+    Serial.begin(115200);
+
+    if (!SD.begin(5))
+    { // CS pin (adjust to your wiring)
+        Serial.println("SD init failed");
+        return;
+    }
 }
 
-void loop() {
-  // put your main code here, to run repeatedly:
+void loop()
+{
 }

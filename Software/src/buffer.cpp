@@ -1,8 +1,8 @@
-#include <buffer.h>
+#include "buffer.h"
 
 void Buffer::init() {
 
 }
-void Buffer:update() {
+void Buffer::update() {
     
 }

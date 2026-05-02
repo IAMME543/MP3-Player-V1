@@ -3,5 +3,5 @@
 class Input {
     public:
         void init();
-        void Update();
-}
+        void update();
+};

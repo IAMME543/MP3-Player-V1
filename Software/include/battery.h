@@ -3,5 +3,5 @@
 class Battery {
     public:
         void init();
-        void Update();
-}
+        void update();
+};

@@ -1,8 +1,8 @@
-#include <battery.h>
+#include "battery.h"
 
 void Battery::init() {
 
 }
-void Battery:update() {
+void Battery::update() {
     
 }

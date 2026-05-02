@@ -1,11 +1,11 @@
-#include <storage.h>
+#include "storage.h"
 
-void Storage::init() {
-
+void Storage::init()
+{
 }
-void Storage:full_scan() {
-    
+void Storage::full_scan()
+{
 }
-void Storage:get_cache() {
-    
+void Storage::get_cache()
+{
 }
