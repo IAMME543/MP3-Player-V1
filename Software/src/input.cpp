@@ -3,21 +3,22 @@
 
 PCA9555 ioex;
 
-//top button
+// top button
 const int UP_PIN = 0;
-//right button
+// right button
 const int NEXT_PIN = 4;
-//bottom button
+// bottom button
 const int DOWN_PIN = 3;
-//left button
+// left button
 const int PREV_PIN = 2;
-//center button
+// center button
 const int PLAY_PAUSE_PIN = 1;
-//rotary encoder
+// rotary encoder
 const int POT_A = 5;
 const int POT_B = 6;
 
-void Input::init() {
+void Input::init()
+{
     Serial.begin(115200);
     delay(2000);
 
@@ -26,6 +27,8 @@ void Input::init() {
     ioex.polarity(PCA95x5::Polarity::ORIGINAL_ALL);
     ioex.direction(PCA95x5::Direction::IN_ALL);
 }
-void Input::update() {
-//
+void Input::update()
+{
+    uint16_t state = ioex.read();
+    // snapshot of all pins states in 16 bit
 }

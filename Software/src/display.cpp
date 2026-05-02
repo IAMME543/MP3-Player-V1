@@ -2,7 +2,6 @@
 #include <PCA95x5.h>
 
 PCA9555 ioex;
-
 // reset
 const int RST_DISPLAY_PIN = 8;
 
